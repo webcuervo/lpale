@@ -1,4 +1,4 @@
 const fondo = document.getElementById("main").innerHTML = 
-`<div style="background-color: red">
+`<div class="container bg-dark">
 <p>Hola Mundo</p>
 </div>`
