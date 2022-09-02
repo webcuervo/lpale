@@ -8,17 +8,72 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <header id="header">
-        
-
+    <header id="header" class="container-fluid d-flex justify-content-center">
+        <div class="navbar position-fixed ">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                </li>
+            </ul>
+        </div>
     </header>
     <main id="main">
-        <div class="imgfondo d-flex justify-content-center">
-            <h1 class="titulo">Salud mental es bienestar</h1>
+        <div id="fondo">
+            <div class="texto ">
+                <h1 class="justify-content-center">
+                    <span>Salúd </span>
+                    <span>mental </span>
+                    <span>es </span>
+                    <span>bien </span>
+                    <span>estar </span>
+                </h1>
+            </div>
         </div>
+        <section>
+            
+            
 
-        <p class="parrafo">Hola Mundo</p>
-        <div class="hero">
+                
+
+                <article class="postcard dark blue">
+                    <a class="postcard__img_link" href="#">
+                        <img class="postcard__img" src="/img/ale.jpg" alt="Image Title" />
+                    </a>
+                    <div class="postcard__text">
+                        <h1 class="postcard__title blue"><a href="#">Lic. Alexia Zuasnabar</a></h1>
+                        <div class="postcard__subtitle small">
+                            <p>Profesora y Licenciada en Psicología</p>
+                        </div>
+                        <div class="postcard__bar"></div>
+                        <div class="postcard__preview-txt">Psicóloga con perspectiva de Género. Atención presencial y virtual de niñxs, adolescentes y adultxs.</div>
+                        <ul class="postcard__tagbox">
+                            <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+                            <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+                            <li class="tag__item play blue">
+                                <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+        </div>
+        </section>
+
+        
+        
+        <!-- <div class="container imgfondo d-flex h-auto justify-content-center">
+            <h1 class="titulo mt-5">Salud mental es bienestar</h1>
+        </div> -->
+
+        <!-- <div class="container hero">
             <div class="diagonal-hero-bg">
                 <div class="stars">
                     <div class="small"></div>
@@ -26,7 +81,7 @@
                     <div class="big"></div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
     </main>
     <footer id="footer">

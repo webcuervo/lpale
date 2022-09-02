@@ -2,7 +2,11 @@
     padding: 0px;
     margin: 0px;
     list-style-type: none;
+    text-decoration: none;
 }
+
+
+@import "scss/custom/card";
 @import "scss/custom/variables";
 @import "scss/custom/fondo";
 
