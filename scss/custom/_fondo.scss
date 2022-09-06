@@ -1,19 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&display=swap');
 
-
-body {
-    background: url(/img/hero.jpg) #e7eaef;
+#fondo{
+    background: #e7eaef;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 1080px;
-    width: 1920;
+    opacity: 1;
+    height: 110vh;
 }
 
 header {
-    background-color: transparent;
+    background-color: #e7eaef;
     transition: 1.1s;
-    
 }
 
 header.sticky {
@@ -26,15 +24,15 @@ header.sticky {
 }  
 
 .texto {
-    margin-top: 6rem;
     opacity: 1;
     z-index: 1;
     
 }
 
-.texto.none {
+
+/* .texto.none {
     display: none;
-}
+} */
 
 h1 {
     margin: auto;
